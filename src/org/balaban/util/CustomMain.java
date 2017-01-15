@@ -12,6 +12,8 @@ public class CustomMain {
 			for (String key:myMap.getKeys()){
 				System.out.println("[" + key + "] " + (String) myMap.getValue(key));
 			}
+			//myMap.put("CA", "California");
+			//myMap.getValue("SR");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
